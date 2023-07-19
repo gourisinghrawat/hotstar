@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background-color: #0f1014;
+    color: #e1e6f0;
+    position: relative;
+}
+button{
+    background-color: #252833;
+}
+a{
+    color: #e1e6f0;
+    text-decoration: none;
+}
+/**************************************navigation bar***********************/
+.brand-logo{
+    position: relative;
+    height: 70px;
+    
+}
+.navbar{
+    display: inline-block;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0f1014;
+    z-index: 0;
+    /*website ke andar ya bahar*/
+    display: flex;
+    padding: 0px 36px 0px 36px;
+    align-items: center;
+}
+nav .navbar{
+    padding: 0px 41px;
+}
+.navbar a{
+    display: flexbox;
+    
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+   
+}
+.navitem, .login{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+}
+.navitem :hover{
+    transition: 0.4s;
+    color: #196ebe;
+}
+.rightbar{
+    margin-left: auto;
+
+}
+.search-box{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: #e1e6f0 solid 1px;
+    background: transparent;
+    color: #9a9da3;
+}
+button.sub-button{
+    margin-left: 20px;
+    background: #196ebe;
+    border-radius: 7px;
+    padding: 6px 14px 6px 14px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #e1e6f0;
+}
+button.sub-button :hover{
+    
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: rgba(25, 110, 190,0.6);
+}
